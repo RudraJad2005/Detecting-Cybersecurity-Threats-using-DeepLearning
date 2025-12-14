@@ -32,6 +32,40 @@ The project uses the BETH dataset, which contains the following features:
 - torch
 - torchmetrics
 
+## Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/YOUR_USERNAME/Detecting-Cybersecurity-Threats-using-DeepLearning.git
+   cd Detecting-Cybersecurity-Threats-using-DeepLearning
+   ```
+
+2. **Create a virtual environment (recommended):**
+   ```bash
+   python -m venv .venv
+   ```
+
+3. **Activate the virtual environment:**
+   - **Windows:**
+     ```bash
+     .venv\Scripts\activate
+     ```
+   - **macOS/Linux:**
+     ```bash
+     source .venv/bin/activate
+     ```
+
+4. **Install the required packages:**
+   ```bash
+   pip install pandas scikit-learn torch torchmetrics
+   ```
+
+5. **Launch Jupyter Notebook or open in VS Code:**
+   ```bash
+   jupyter notebook model.ipynb
+   ```
+   Or open the project folder in VS Code and run the notebook cells.
+
 ## Model Architecture
 
 The model is a simple Feedforward Neural Network (MLP) built with PyTorch:
